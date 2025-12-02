@@ -19,3 +19,22 @@ you can change the existing files in local repo
 4. git push origin main
 --------------------------
 if you want to retreive remote repository  to local pc : git clone "url"
+rmdir /s / q mayuri - to remove the directoy(if files are there in folder you need to use this)
+dir /a:h - to show the hidden files.
+mkdir .varshini - making or creating directory
+attrib +h varshini -(hiding the folder)
+attrib -h varshini(unhiding the folder)
+ mkdir mayuri
+cd mayuri - open directory
+notepad hello.txt(creating a new file in notepad)
+hello
+cd .-single dot means in same directory
+cd .. - parent or previous directory
+rmdir mayuri-to remove folder if it is not having many files inside it
+s means stack,q means quit in /s /q 
+rename <varshini>-existing <lasya>-new(renaming)the folder or file
+type filename.txt - to display content of a file in commandprompt only.
+type mayuri.txt>Anurag.txt (copied from mayuri to Anurag)
+deleting all txt files-del *.txt
+deleting all java files-del*.java
+
