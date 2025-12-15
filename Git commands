@@ -1,0 +1,40 @@
+1. git init
+2. git add .
+3. git commit -m "message"
+4. git remote add origin <remote-url>
+
+Example: 
+git remote add origin https://github.com/Mayuriblog/JFS_VISEM.git
+
+5. git push origin main
+6. you can check in remote repository
+
+----------------------------------------
+if you can add any files in local repository or
+you can change the existing files in local repo
+
+1. git status
+2. git add .
+3. git commit -m "message"
+4. git push origin main
+--------------------------
+if you want to retreive remote repository  to local pc : git clone "url"
+rmdir /s / q mayuri - to remove the directoy(if files are there in folder you need to use this)
+dir /a:h - to show the hidden files.
+mkdir .varshini - making or creating directory
+attrib +h varshini -(hiding the folder)
+attrib -h varshini(unhiding the folder)
+ mkdir mayuri
+cd mayuri - open directory
+notepad hello.txt(creating a new file in notepad)
+hello
+cd .-single dot means in same directory
+cd .. - parent or previous directory
+rmdir mayuri-to remove folder if it is not having many files inside it
+s means stack,q means quit in /s /q 
+rename <varshini>-existing <lasya>-new(renaming)the folder or file
+type filename.txt - to display content of a file in commandprompt only.
+type mayuri.txt>Anurag.txt (copied from mayuri to Anurag)
+deleting all txt files-del *.txt
+deleting all java files-del*.java
+
